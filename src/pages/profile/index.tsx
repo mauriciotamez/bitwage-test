@@ -26,7 +26,7 @@ export default function Profile () {
         <div className="text-2xl mt-10 font-semibold">Addresses</div>
         <InfoRow label="Home" content="Earth" />
       </div>
-      <div className="w-1/2 flex justify-center items-center flex-grow opacity-20 object-contain">
+      <div className="w-1/2 flex justify-center items-center flex-grow opacity-35 object-contain">
         <img src={Exchange} alt="" className="max-w-full h-auto" width={600} />
       </div>
     </main>
