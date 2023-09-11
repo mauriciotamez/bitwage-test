@@ -9,7 +9,7 @@ interface MainLayoutProps {
 export default function MainLayout ({ children }: MainLayoutProps) {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <div className='px-10 py-6'>
+      <div className='px-10 py-6 flex flex-col h-screen'>
         <Navbar />
         {children}
       </div>
