@@ -9,17 +9,17 @@ const Profile = lazy(async () => await import('@/pages/profile'))
 
 const App = () => {
   return (
-      <MainLayout>
-        <Suspense
-          fallback={
-            <div className="h-full w-full flex items-center justify-center">
-              <Spinner size="xl" />
-            </div>
-          }
-        >
-          <Outlet />
-        </Suspense>
-      </MainLayout>
+    <MainLayout>
+      <Suspense
+        fallback={
+          <div className="h-full w-full flex items-center justify-center">
+            <Spinner size="xl" />
+          </div>
+        }
+      >
+        <Outlet />
+      </Suspense>
+    </MainLayout>
   )
 }
 

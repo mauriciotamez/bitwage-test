@@ -1,4 +1,5 @@
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
+import Exchange from '@/assets/exchange.png'
 import InfoRow from './components/InfoRow'
 
 export default function Profile () {
@@ -18,11 +19,15 @@ export default function Profile () {
         <InfoRow label="Name" content="Mauricio Tamez" />
         <InfoRow label="Birthday" content="April 2, 2000" />
         <InfoRow label="Gender" content="Male" />
+        <InfoRow label="Role" content="E-Commerce Admin" />
         <div className="text-2xl mt-10 font-semibold">Contact info</div>
         <InfoRow label="Email" content="oscartamez13@gmail.com" />
         <InfoRow label="Phone" content="81 1999 2063" />
         <div className="text-2xl mt-10 font-semibold">Addresses</div>
         <InfoRow label="Home" content="Earth" />
+      </div>
+      <div className="w-1/2 flex justify-center items-center flex-grow opacity-20 object-contain">
+        <img src={Exchange} alt="" className="max-w-full h-auto" width={600} />
       </div>
     </main>
   )

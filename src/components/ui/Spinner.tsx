@@ -1,21 +1,21 @@
-import clsx from 'clsx'
+import clsx from 'clsx';
 
 const sizes = {
   sm: 'h-4 w-4',
   md: 'h-8 w-8',
   lg: 'h-16 w-16',
-  xl: 'h-24 w-24'
-}
+  xl: 'h-24 w-24',
+};
 
 const variants = {
   light: 'text-white',
-  primary: 'text-blue-600'
-}
+  primary: 'text-blue-600',
+};
 
 export interface SpinnerProps {
-  size?: keyof typeof sizes
-  variant?: keyof typeof variants
-  className?: string
+  size?: keyof typeof sizes;
+  variant?: keyof typeof variants;
+  className?: string;
 }
 
 export const Spinner = ({ size = 'md', variant = 'primary', className = '' }: SpinnerProps) => {
@@ -28,14 +28,7 @@ export const Spinner = ({ size = 'md', variant = 'primary', className = '' }: Sp
         viewBox="0 0 24 24"
         data-testid="loading"
       >
-        <circle
-          className="opacity-25"
-          cx="12"
-          cy="12"
-          r="10"
-          stroke="currentColor"
-          strokeWidth="4"
-        ></circle>
+        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
         <path
           className="opacity-75"
           fill="currentColor"
@@ -44,5 +37,5 @@ export const Spinner = ({ size = 'md', variant = 'primary', className = '' }: Sp
       </svg>
       <span className="sr-only">Loading</span>
     </>
-  )
-}
+  );
+};

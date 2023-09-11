@@ -9,10 +9,13 @@ export default function Navbar () {
   const currentLocation = useLocation().pathname
 
   return (
-    <header className="sm:flex place-content-between justify-between align-middle">
-      <div className="hidden sm:flex justify-center items-center text-xl">Crypto 💱</div>
+    <header className="sm:flex place-content-between justify-between align-middle mt-8 sm:mt-0">
+      <div className="hidden sm:flex justify-center items-center text-xl">💱</div>
       <nav>
         <ul className="flex gap-3 border rounded-full py-2 px-4">
+          <li className='flex justify-center items-center '>
+            <div className="flex sm:hidden justify-center items-center text-xl">💱</div>
+          </li>
           <Link to={'/'} className="flex justify-center items-center">
             <li className={currentLocation === '/' ? NavbarItemStylesSelected : NavbarItemStyles}>Dashboard</li>
           </Link>

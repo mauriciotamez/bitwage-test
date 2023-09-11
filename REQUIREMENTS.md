@@ -15,7 +15,7 @@ a page with a table component containing random data
 
 2. Implement a navigation header bar component that persists across all pages and allows the user to switch between pages (ie... switch between dashboard/profile/table)
 
-*Note:
+\*Note:
 
 Use tailwind and the https://ui.shadcn.com/ for components and styling
 
