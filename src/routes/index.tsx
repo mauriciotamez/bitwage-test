@@ -1,6 +1,6 @@
-import { createBrowserRouter } from 'react-router-dom';
-import { protectedRoutes } from './protected';
+import { createBrowserRouter } from 'react-router-dom'
+import { appRoutes } from './protected'
 
-const Router = createBrowserRouter(protectedRoutes);
+const Router = createBrowserRouter(appRoutes)
 
-export default Router;
+export default Router

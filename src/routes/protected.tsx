@@ -23,7 +23,7 @@ const App = () => {
   )
 }
 
-export const protectedRoutes = [
+export const appRoutes = [
   {
     path: '', // This route handles the homepage
     element: <App />,

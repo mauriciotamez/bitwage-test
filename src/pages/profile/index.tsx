@@ -2,7 +2,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import Exchange from '@/assets/exchange.png'
 import InfoRow from './components/InfoRow'
 
-export default function Profile () {
+export default function Profile() {
   return (
     <main className="w-100 bg-[#393E65] rounded-md flex-grow mt-12 flex flex-row  dark:bg-[#2f2b3a]">
       <div className="text-2xl text-[#393E65] dark:text-white bg-[#cdcad4] dark:bg-[#4e3977] rounded-md sm:rounded-tl-md sm:rounded-bl-md sm:rounded-tr-none sm:rounded-br-none min-w-full sm:min-w-[100%] md:min-w-[50%] lg:min-w-[50%] xl:min-w-[33%] p-10">

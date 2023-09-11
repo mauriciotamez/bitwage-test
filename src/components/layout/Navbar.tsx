@@ -1,7 +1,7 @@
 import { ModeToggle } from '@/components/theme/mode-toggle'
 import { Link, useLocation } from 'react-router-dom'
 
-export default function Navbar () {
+export default function Navbar() {
   const NavbarItemStyles = 'text-sm cursor-pointer hover:text-slate-400 transition-colors'
   const NavbarItemStylesSelected =
     'text-sm cursor-pointer hover:text-slate-400 transition-colors font-bold text-[#393E65] dark:text-purple-400'
@@ -13,7 +13,7 @@ export default function Navbar () {
       <div className="hidden sm:flex justify-center items-center text-xl">💱</div>
       <nav>
         <ul className="flex gap-3 border rounded-full py-2 px-4">
-          <li className='flex justify-center items-center '>
+          <li className="flex justify-center items-center ">
             <div className="flex sm:hidden justify-center items-center text-xl">💱</div>
           </li>
           <Link to={'/'} className="flex justify-center items-center">

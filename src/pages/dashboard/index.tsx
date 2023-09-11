@@ -1,7 +1,7 @@
 import SimpleLineChart from '@/pages/dashboard/components/SimpleLineChart'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 
-export default function Dashboard () {
+export default function Dashboard() {
   return (
     <main className="w-100 bg-[#393E65] rounded-md flex-grow mt-12 mb-12 flex flex-col p-10 dark:bg-[#2f2b3a]">
       <div className="relative bottom-4 flex">
